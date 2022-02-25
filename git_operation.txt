@@ -1,0 +1,17 @@
+mkdir//新建文件夹
+touch//新建文件
+cd//转向路径
+pwd//查看当前路径
+cat//查看内容
+vi//打开文件  i 写 esc退出  :wq保存
+
+/*初始化 一次就好
+git config --global user.name 'Huang-Shuangbao'
+git config --global user.email '1634347183@qq.com'
+*/
+git clone 仓库地址    克隆仓库
+git status
+
+git add hello.go // 添加到暂存区
+git commit -m  '内容' //提交到Git仓库
+git push//将git仓库同步到云仓库
